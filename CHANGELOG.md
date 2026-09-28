@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 — 2026-09-28
+
+- Keep the Choose Again button below an unavailable folder’s status, aligned with its name and location.
+- Size the chosen-folder list to its content, with scrolling for longer lists, so reselection buttons remain visible.
+- Cleanup behavior and compatibility requirements are unchanged.
+
 ## 0.1.0 — 2026-09-27
 
 Initial independently distributed Hushtrail release.
