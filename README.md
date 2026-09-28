@@ -2,7 +2,7 @@
 
 Clear selected app history. Review possible uninstall leftovers.
 
-**[Download Hushtrail 0.1.0 for Mac](https://github.com/JaminZhou/hushtrail-releases/releases/download/v0.1.0/Hushtrail-0.1.0.zip)** · [Release notes](https://github.com/JaminZhou/hushtrail-releases/releases/tag/v0.1.0) · [Website](https://jaminzhou.com/hushtrail/)
+**[Download Hushtrail 0.1.1 for Mac](https://github.com/JaminZhou/hushtrail-releases/releases/download/v0.1.1/Hushtrail-0.1.1.zip)** · [Release notes](https://github.com/JaminZhou/hushtrail-releases/releases/tag/v0.1.1) · [Website](https://jaminzhou.com/hushtrail/)
 
 This repository hosts official downloads, release notes and public issue reports. It does not contain the application source code.
 
