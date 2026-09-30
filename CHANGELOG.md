@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.2 — 2026-09-30
+
+- Fix skipped Recents records caused by filename-based Spotlight verification, including records inside subfolders.
+- Remove the 2,000-item and 20-record limits and the whole-check deadline. Check all discovered records in the selected folders and subfolders; cancellation and per-command timeouts remain available.
+- Explain folder access failures and distinguish incomplete Spotlight queries, missing index results, and inconsistent recent-use metadata.
+- Keep the chosen-folder sheet compact after adding and removing folders.
+
+The chosen-folder Recents capability remains experimental. Original files are retained; file safety checks, execution-time revalidation and interruption recovery remain in place.
+
 ## 0.1.1 — 2026-09-28
 
 - Keep the Choose Again button below an unavailable folder’s status, aligned with its name and location.
