@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.3 — 2026-10-02
+
+- Keep Finder Recent Folders and experimental Recents in Chosen Folders available after macOS updates by removing the exact 27.0.0 version gate.
+- Check the actual history format, file identity and recent-use metadata while retaining normal quit/reopen, execution-time revalidation, index verification and interruption recovery.
+- Explain unsupported Finder history formats directly and update the Recents help in English and Simplified Chinese.
+
+Requires macOS 27.0 or later. This removes a version-label restriction; it does not establish real-machine acceptance for every newer macOS release. The chosen-folder feature remains experimental.
+
 ## 0.1.2 — 2026-09-30
 
 - Fix skipped Recents records caused by filename-based Spotlight verification, including records inside subfolders.

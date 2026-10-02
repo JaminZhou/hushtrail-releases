@@ -2,7 +2,7 @@
 
 Clear selected app history. Review possible uninstall leftovers.
 
-**[Download Hushtrail 0.1.2 for Mac](https://github.com/JaminZhou/hushtrail-releases/releases/download/v0.1.2/Hushtrail-0.1.2.zip)** · [Release notes](https://github.com/JaminZhou/hushtrail-releases/releases/tag/v0.1.2) · [Website](https://jaminzhou.com/hushtrail/)
+**[Download Hushtrail 0.1.3 for Mac](https://github.com/JaminZhou/hushtrail-releases/releases/download/v0.1.3/Hushtrail-0.1.3.zip)** · [Release notes](https://github.com/JaminZhou/hushtrail-releases/releases/tag/v0.1.3) · [Website](https://jaminzhou.com/hushtrail/)
 
 This repository hosts official downloads, release notes and public issue reports. It does not contain the application source code.
 
@@ -25,7 +25,7 @@ No browser history or cookies, startup scan, whole-disk sweep, app-managed backu
 
 Initial real-machine validation used macOS 27.0 (26A428) on Apple silicon. The app includes arm64 and x86_64 code; Intel hardware acceptance is not claimed.
 
-Finder Recent Folders and the separate **experimental** Recents in Chosen Folders currently require exactly macOS 27.0.0; later versions can show these features as unavailable. Raising the application minimum does not automatically validate a new system version.
+Finder Recent Folders and the separate **experimental** Recents in Chosen Folders no longer require an exact macOS version. The app retains its macOS 27.0 minimum; actual storage format, file identities, recent-use metadata and safety checks determine availability. OS updates alone do not disable these features. Tested system versions remain evidence, not a guarantee that every newer system has passed real-machine acceptance.
 
 System Recent Documents supports detected `.sfl4` archives. It clears the selected system list, not every app-owned history or every Dock menu; applications can maintain or recreate their own history. Artificial A/B menu/restart checks passed; Preview/Dock-specific cleanup and the system administrator-dialog Cancel branch remain outside completed acceptance.
 
